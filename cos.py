@@ -10,5 +10,6 @@ plt.plot(x,y2, linestyle = "--", label = "cos")
 plt.xlabel("x")
 plt.ylabel("y")
 plt.title("sin & cos")
-# plt.legend()
+plt.legend()
+# ラベルのようなものをつけることができる。今回の場合はlabelでsinとcosを指定しているのでそのようなラベルが出るね。
 plt.show()
